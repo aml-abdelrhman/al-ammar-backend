@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Scholar;
 
-class ScholarsSeeder extends Seeder
+class ScholarSeeder extends Seeder
 {
     public function run(): void
     {

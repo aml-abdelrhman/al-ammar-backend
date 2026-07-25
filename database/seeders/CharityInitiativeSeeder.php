@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\CharityInitiative;
 
-class CharityInitiativesSeeder extends Seeder
+class CharityInitiativeSeeder extends Seeder
 {
     public function run(): void
     {

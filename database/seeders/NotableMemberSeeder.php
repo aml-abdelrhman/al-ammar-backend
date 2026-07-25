@@ -9,7 +9,6 @@ class NotableMemberSeeder extends Seeder
 {
     public function run(): void
     {
-        NotableMember::truncate();
 
         $members = [
             [

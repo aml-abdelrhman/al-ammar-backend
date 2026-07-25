@@ -9,7 +9,6 @@ class CharityInitiativeSeeder extends Seeder
 {
     public function run(): void
     {
-        CharityInitiative::truncate();
 
         $initiatives = [
             // ----------------- 1. مشاريع عامة (6 كاردات بصور فريدة) -----------------

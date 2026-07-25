@@ -9,7 +9,6 @@ class ScholarSeeder extends Seeder
 {
     public function run(): void
     {
-        Scholar::truncate();
 
         $scholars = [
             [

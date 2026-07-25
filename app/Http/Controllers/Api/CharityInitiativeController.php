@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 class CharityInitiativeController extends Controller
 {
+
     public function index(Request $request)
     {
         $query = CharityInitiative::query();

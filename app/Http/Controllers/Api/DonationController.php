@@ -67,6 +67,8 @@ class DonationController extends Controller
         }
 
         // ج. إعادة توجيه المستخدم إلى صفحة الموقع الأمامي مع رسالة نجاح
-        return redirect()->to('http://localhost:3000/?status=success&amount=' . $donation->amount);
-    }
+// ج. إعادة توجيه المستخدم إلى الموقع الأمامي ديناميكياً (Vercel أو Localhost)
+        $frontendUrl = env('APP_FRONTEND_URL', 'http://localhost:3000');
+
+        return redirect()->to("{$frontendUrl}/?status=success&amount=" . $donation->amount);    }
 }

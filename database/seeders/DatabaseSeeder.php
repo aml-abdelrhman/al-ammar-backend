@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
     $this->call(NotableMemberSeeder::class);
     $this->call(ScholarSeeder::class);
     $this->call(CharityInitiativeSeeder::class);
-    $this->call(CourseSyllabusSeeder::class);
+    $this->call(DigitalLibrarySeeder::class);
+
 }
 
     
